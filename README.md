@@ -36,6 +36,7 @@ Project Statement: The aim of our project is to examine the effectiveness of vac
 - Also as new data continuously need to be integrated NoSQL was chosen.
 
 ## ETL workflow with diagrams or ERD
+![](QuickDBD-export_CovidData.png)
 
 
 
