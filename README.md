@@ -8,7 +8,7 @@ Kerigo Ndirangu: kgndirangu@gmail.com
 Chosen Track: Data Visualization
 Chosen Topic: Healthcare (Covid-19 Vaccines)
 
-# Potential Data Sources: 
+# Data Sources Used: 
 
 - State-by-state data on COVID-19 vaccinations in the United States - Our World in Data 
 
