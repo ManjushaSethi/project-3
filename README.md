@@ -5,7 +5,7 @@ Danielle Danis: daniellemdanis@gmail.com
 Rafael Soriano: sorianor131@gmail.com 
 Kerigo Ndirangu: kgndirangu@gmail.com 
 
-Chosen Track: Data Visualization
+Chosen Track: Data Engineering
 Chosen Topic: Healthcare (Covid-19 Vaccines)
 
 # Data Sources Used: 
