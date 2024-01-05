@@ -59,31 +59,6 @@ def read_root():
         </body>
     </html>
     """
-    # return ('Hello, welcome to our Covid-19 Vaccine Database!',
-            
-    #         'Please use route /vaccines for more information about COVID-19 Data',
-            
-    #         'To search for data in a specific US state, use /vaccines/[Your State Here]',
-
-    #         'To search for a range of data after a specified date, use /vaccines?start_date=[YYYY-MM-DD]',
-            
-    #         'To search for a range of data before a specified date, use /vaccines?end_date=[YYYY-MM-DD]',
-
-    #         'To search for a range of data between two specified dates, use /vaccines?start_date=[YYYY-MM-DD]&end_date=[YYYY-MM-DD]',
-            
-    #         'To search for a range of data after a specified date in any particular US State, use /vaccines/[Your State Here]?start_date=[YYYY-MM-DD]',
-            
-    #         'To search for a range of data before a specified date, use /vaccines/[Your State Here]?end_date=[YYYY-MM-DD]',
-
-    #         'To search for a range of data between two specified dates, use /vaccines/[Your State Here]?start_date=[YYYY-MM-DD]&end_date=[YYYY-MM-DD]',
-
-    #         "Be sure to capitalize the first letter of the state you are searching for",
-            
-    #         "For example: /vaccines/Alabama or /vaccines/New York State"
-
-
-    #         )
-
 
 @app.get("/vaccines")
 def read_item(start_date: Union[str, None] = '2019-01-01', end_date: Union[str, None] = '2024-01-01' ):
