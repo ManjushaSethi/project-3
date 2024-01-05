@@ -30,5 +30,5 @@ Chosen Topic: Healthcare (Covid-19 Vaccines)
 
 Project Statement: The aim of our project is to examine the effectiveness of vaccines using the Covid-19 vaccine as a case study. We will determine the success of Covid-19 vaccines  by looking at accessibility of vaccination by state, impact of the vaccination on different age groups by examining the number of new cases after the vaccine, total ICU/hospital admissions, and death rate over time.
 
-#External Library Used: Fast API
+# External Library Used: Fast API
 - To launch our Covid-19 Vaccination Database python application, please visit https://fastapi.tiangolo.com/ for installation documentation
