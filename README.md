@@ -1,34 +1,57 @@
-# project-3
+## project-3
 
 Manjusha Sethi: msethi1025@gmail.com 
 Danielle Danis: daniellemdanis@gmail.com
 Rafael Soriano: sorianor131@gmail.com 
 Kerigo Ndirangu: kgndirangu@gmail.com 
 
-Chosen Track: Data Engineering
-Chosen Topic: Healthcare (Covid-19 Vaccines)
+## Chosen Track: Data Engineering
+## Chosen Topic: Healthcare (Covid-19 Vaccines)
 
-# Data Sources Used: 
+## An overview of the project and its purpose
 
-- State-by-state data on COVID-19 vaccinations in the United States - Our World in Data 
+Project Statement: The aim of our project is to examine the effectiveness of vaccines using the Covid-19 vaccine as a case study. To create a database that can be used to examine the ongoing impact of Covid-19 vaccination on various included endpoints such as death and utilized to predict pattern of vaccine rollout and uptake for future epidemics. 
 
-- covid-19-data/public/data/vaccinations at master · owid/covid-19-data (github.com) 
+## Data Sources Used: 
 
-- nytimes/covid-19-data: A repository of data on coronavirus cases and deaths in the U.S. (github.com) 
+- https://ourworldindata.org/us-states-vaccinations
 
 - https://beta.healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/g62h-syeh/data_preview
 
 
-# Exploratory Questions:
-- How many people were vaccinated each month starting from Jan 1st 2021 - Jan 1st 2022 in each state? data
-- How many vaccines were available per hundred people in each state? data
-- What was the vaccine uptake rate in each age group by state? data
-- How were different age groups impacted by the vaccine? data
-- Total # of new cases after vax, total ICU/hospital admissions, death rate
-- What is the impact of vaccination rate on new cases and mortality? (mortality rate before & after vaccine roll-out) data
-- Did vaccination reduce the severity of cases (ICU Bed Occupancy) data
+## Exploratory Questions:
+- How many people were vaccinated each month starting from Jan 1st 2021 - Jan 1st 2022 in each state? 
+- How many vaccines were available in each state? 
 
-Project Statement: The aim of our project is to examine the effectiveness of vaccines using the Covid-19 vaccine as a case study. We will determine the success of Covid-19 vaccines  by looking at accessibility of vaccination by state, impact of the vaccination on different age groups by examining the number of new cases after the vaccine, total ICU/hospital admissions, and death rate over time.
+## Instructions on how to use and interact with the project
 
-# External Library Used: Fast API
+## External Library Used: Fast API
 - To launch our Covid-19 Vaccination Database python application, please visit https://fastapi.tiangolo.com/ for installation documentation
+
+## Documentation of the database used and why
+- We used MongoDB for following reasons
+- Faced with a large amount of data where fields may be incomplete, MongoDB is capable of parsing data quickly 
+- Data  came from multiple sources while using different formats so NoSQL was an efficient way to store it.
+- Data is dynamic so we needed flexible schemas to make changes as requirements might change. 
+- Also as new data continuously need to be integrated NoSQL was chosen.
+
+## ETL workflow with diagrams or ERD
+
+
+
+## Ethical considerations made in the project
+We tried to maintain our Ethichal Obligations while doing this project which are shown by following ethical considerations:
+
+- 1. Transparency: We provided the source references. Our engineered data is on GitHub for open use.
+- 2. Accountability: All the relevant data was included with consistency.
+- 3. Privacy: No personal information was used.
+- 4. Security:  Risks was mitigated while using Cloud MongoDB (no individual IP addresses, instead 00.00.00) .
+- 5. Consent: Data used was from a open source. 
+- 6. Integrity: Data was used from reliable sources.
+
+
+
+
+
+
+  
