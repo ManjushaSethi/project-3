@@ -50,7 +50,30 @@ Project Statement: The aim of our project is to examine the effectiveness of vac
 
 ## ETL workflow with diagrams or ERD
 ![](QuickDBD-export_CovidData.png)
+- Read data using python and pandas from multiple CSV files.
+- Converted collections into pandas dataframe.
+- Cleaned and structured data into desired form.
+- Merged clean dataframes to create our final CSV output.
+- Import final CSV output into MongoDB Atlas for storage.
+- Use FastAPI to query the database.
 
+## Selection of columns for final database
+The selection of fields really depended on the type of analysis we wanted to perform. In our case the fields we kept focused on a subset of data that was relevant to our original objective wich was measuring the impact of covid vaccinations by state.
+
+### Relevance to Vaccination Data
+- The fields related to vaccinations (e.g. total vaccinations, people vaccinated) are included because our analysis was focused on tracking and understanding the vaccination progress over time and across different states. 
+
+### Healthcare Impact
+- Fields related to hospitalization data can provide insights into the impact of COVID 19 on healthcare systems. These metrics may be relevant if you are interested in understanding the strain on hospital resources. 
+
+### Demographic Analysis
+- The fields related to age specific admissions can be useful for demographic analysis, helping to identify trends and patterns in COVID 19 admissions across different age groups. 
+
+### Mortality Data
+- The deaths_covid field provides information on COVID 19 related deaths, which is crucial for understanding the severity and impact of the pandemic on mortality rates.
+
+### Distribution Metrics
+- Metrics such as total_distributed and distributed_per_hundred are included to understand the distribution of vaccines across states and the population coverage. 
 
 
 ## Ethical considerations made in the project
