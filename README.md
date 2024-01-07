@@ -25,6 +25,19 @@ Project Statement: The aim of our project is to examine the effectiveness of vac
 
 ## Instructions on how to use and interact with the project
 
+<br> Data Folder has following Data Sources:
+- Raw Data: <br>1. Data/us_state_vaccinations.csv
+            <br>2. Data/COVID_Vaccines_ByAge.json
+            <br>3. Data/COVID-19_Reported_Impact_and_Hospital_by_State.csv
+
+<br> Processed Data: Data/app.py
+
+<br> Output Data has following:
+- Cleaned Data in csv format: Output/Covid19_Data.csv
+- Cleaned Data in json format: Output/Covid19_Data.json
+- Output Data also has a Sample Javascript an shtml file as a sample of how above mentioned files can be used for Data visulaization.
+- Data Extraction and Loading Code: CovidData_Setup_Starter.ipynb
+
 ## External Library Used: Fast API
 - To launch our Covid-19 Vaccination Database python application, please visit https://fastapi.tiangolo.com/ for installation documentation
 
