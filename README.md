@@ -10,7 +10,7 @@ Kerigo Ndirangu: kgndirangu@gmail.com
 
 ## An overview of the project and its purpose
 
-Project Statement: The aim of our project is to examine the effectiveness of vaccines using the Covid-19 vaccine as a case study. To create a database that can be used to examine the ongoing impact of Covid-19 vaccination on various included endpoints such as death and utilized to predict pattern of vaccine rollout and uptake for future epidemics. 
+Project Statement: The aim of our project is to examine the effectiveness of vaccines using the Covid-19 vaccine as a case study. To create a database that can be used to examine the ongoing impact of Covid-19 vaccination on various included endpoints such as hospitalization and death. The selected data from large publicly available datasets, CDC and US Department of Health & Human Services, are reliable sources that can be and utilized to predict the pattern of vaccine rollout and uptake for future epidemics. 
 
 ## Data Sources Used: 
 
@@ -21,7 +21,11 @@ Project Statement: The aim of our project is to examine the effectiveness of vac
 
 ## Exploratory Questions:
 - How many people were vaccinated each month starting from Jan 1st 2021 - Jan 1st 2022 in each state? 
-- How many vaccines were available in each state? 
+- How many vaccines were available in each state?
+- How many vaccines were available per hundred people in each state?
+- How were different age groups impacted by the COVID-19?
+- What is the impact of vaccination rate on mortality?
+- Did vaccination reduce the severity of cases?
 
 ## Instructions on how to use and interact with the project
 
